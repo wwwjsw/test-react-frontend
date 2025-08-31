@@ -14,6 +14,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* basic default styles */
 .default-card {
   @apply flex bg-white p-4 rounded-md shadow-md mb-4 text-black flex-row flex-wrap justify-center align-middle gap-4;
 }
@@ -28,4 +30,13 @@
 
 .default-input {
   @apply p-2 rounded-md border border-gray-300 text-white bg-black;
+}
+
+/* basic buttons */
+.default-btn {
+  @apply p-2 rounded-md border border-gray-300 text-white bg-black;
+}
+
+.default-btn-info {
+  @apply p-2 rounded-md border border-gray-300 text-white bg-blue-500;
 }
