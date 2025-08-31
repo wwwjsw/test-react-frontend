@@ -7,10 +7,17 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background: conic-gradient(at bottom right, #fb7185, #a21caf, #6366f1);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.default-card {
+  @apply flex bg-white p-4 rounded-md shadow-md mb-4 text-black flex-row flex-wrap justify-center align-middle gap-4;
+}
+
+.default-card .default-card-content {
+  @apply flex flex-col bg-gray-900 p-2 text-white rounded-md cursor-pointer;
 }
