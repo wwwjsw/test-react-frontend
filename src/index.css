@@ -18,6 +18,10 @@
   @apply flex bg-white p-4 rounded-md shadow-md mb-4 text-black flex-row flex-wrap justify-center align-middle gap-4;
 }
 
+.default-card-col {
+  @apply flex bg-white p-4 rounded-md shadow-md mb-4 text-black flex-col flex-wrap justify-center align-middle gap-4;
+}
+
 .default-card .default-card-content {
   @apply flex flex-col bg-gray-900 p-2 text-white rounded-md cursor-pointer;
 }
