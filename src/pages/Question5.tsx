@@ -1,7 +1,7 @@
 import QuestionHeader from '@/components/QuestionHeader';
 import type { EggDrop } from '@/types/EggDrop';
 import type { EggSimulation } from '@/types/EggSimulation';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Question5 = () => {
   const [simulation, setSimulation] = useState<EggSimulation>();
