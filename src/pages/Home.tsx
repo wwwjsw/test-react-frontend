@@ -1,11 +1,7 @@
 import { Link } from "react-router-dom"
 import questions from "../data/Questions"
-import type { Question } from "../types/Question"
 
 function Home() {
-    const onClickQuestion = (question: Question) => {
-      console.log('click', question)
-    }
     return (
       <>
         <div className="default-card">
@@ -16,7 +12,6 @@ function Home() {
               <Link
                 to={question.path}
                 key={question.id}
-                onClick={() => onClickQuestion(question)}
                 className="default-card-content">
                 {question.title}
               </Link>
