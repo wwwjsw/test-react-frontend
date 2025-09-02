@@ -27,7 +27,7 @@
 
 .default-card .default-card-content,
 .default-card-col .default-card-content {
-  @apply flex flex-col bg-gray-900 p-2 text-white rounded-md cursor-pointer;
+  @apply flex flex-col bg-gray-900 p-2 text-white rounded-md;
 }
 
 .default-input {
