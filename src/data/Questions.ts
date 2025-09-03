@@ -7,7 +7,7 @@ const questions: Question[] = [
   { id: 4, title: "4 - Check if breckets are closed correctly", path: "/question-4" },
   { id: 5, title: "5 - Drop egg", path: "/question-5" },
   { id: 6, title: "6 - Zeno's Paradox of Achilles and the Tortoise", path: "/question-6" },
-  { id: 7, title: "7", path: "/question-7" },
+  { id: 7, title: "7 - Maximum value of a bag", path: "/question-7" },
 ];
 
 export default questions;

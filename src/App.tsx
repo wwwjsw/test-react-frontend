@@ -7,6 +7,7 @@ import Question3 from "./pages/Question3";
 import Question4 from "./pages/Question4";
 import Question5 from "./pages/Question5";
 import Question6 from "./pages/Question6";
+import Question7 from "./pages/Question7";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path="/question-4" element={<Question4 />} />
         <Route path="/question-5" element={<Question5 />} />
         <Route path="/question-6" element={<Question6 />} />
-        {/* <Route path="/question-7" element={<Question7 />} /> */}
+        <Route path="/question-7" element={<Question7 />} />
       </Routes>
     </div>
   );
